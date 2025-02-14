@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 90%;
+  }
+
+  main {
+    margin-top: 160px;
+  }
+}
+
+          
+
+html,
+body {
+  color: #181717;
+  font-size: 15.5px !important;
+  font-family: "Inter", sans-serif;
+  background: #fff;
+  height: 100vh;
+}
+
+a,
+p,
+span {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#242969;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  border-bottom: 1px solid transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  /* background-color: #f4f4f4; */
+  background-color: #fff;
+}
+
+#contact a{
+  font-size: 14px;
+}
+
+main {
+  position: relative;
+}
+
+header .container {
+  z-index: 999;
+}
+
+.logo img {
+  width: 118px;
+}
+
+.text-primary {
+  color: #242969 !important;
+}
+
+.section {
+  margin: 110px 0;
+}
+
+.content-card {
+  
+  border: 1px solid #f4f4f4;
+  font-size: 15px;
+  background-color: #fff;
+  padding: 20px 14px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #f4f4f4 !important;
+}
+
+.text-sm {
+  font-size: 13px;
+}
+
+.text-gray {
+  color: #666;
+}
+
+.content-more{
+  margin:20px 0;
+}
+
+.content-card-left {
+  width: 40%;
+  margin-right: 18px;
+}
+
+.content-card-left h5 {
+  font-size: 15px;
+}
+
+.content-card-right{
+  width: 60%;
+}
+
+.content-card-right p{
+  width: 90%;
+  text-align: left;
+}
+
+.tech img {
+  width: 48px;
+  height: 24px;
+}
+
+.btn-main{
+  padding:12px 24px;
+  min-width: 120px;
+  text-align: center;
+  background-color: #242969;
+  color:#fff;
+  border:none;
+  outline:none;
+  transition:0.35s ease;
+}
+
+.btn-main:hover{
+  background-color: #3d4289;
+}
+
+.btn-round{
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 500px){
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 98%;
+  }
+
+  html,body{
+    font-size: 14px !important;
+    overflow-x: hidden;
+  }
+
+  .content-card{
+    padding:10px 5px;
+    flex-direction: column;
+  }
+
+  .content-card-left{
+    flex-direction: column;
+  }
+
+  .content-card-right{
+    width: 100%;
+  }
+}
